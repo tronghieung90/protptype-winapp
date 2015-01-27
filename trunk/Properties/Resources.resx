@@ -1,0 +1,581 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="search_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_101_PhieuGiaoNhanHoSo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\101 PhieuGiaoNhanHoSo.rtf;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Reading_24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reading_24x24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BinhThuong24_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BinhThuong24_24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\agree.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancel.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check128x128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KoHopLe48x48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KoHopLe48x48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="receive64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\receive64x64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="excel48x48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\excel48x48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="address32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\address32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="card48x48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\card48x48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chidinh48x48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chidinh48x48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filter48x48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filter48x48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flag64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flag64x64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="move48x48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\move48x48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Single_Window_Example" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Single_Window_Example.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sync48x48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sync48x48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="text48x48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\text48x48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unread48x48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unread48x48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BHXHVN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BHXHVN.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BHXHVN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BHXHVN.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="application" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeControl\application.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="application_view_tile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeControl\application_view_tile.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Document" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeControl\Document.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Drawing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeControl\Drawing.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="feed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeControl\feed.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeControl\Folder.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folder2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeControl\Folder2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folder3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeControl\Folder3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folder4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeControl\Folder4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FolderClosed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeControl\FolderClosed.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FolderOpen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeControl\FolderOpen.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Harddrive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeControl\Harddrive.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Home2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeControl\Home2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeControl\Inbox.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InfoImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeControl\InfoImage.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mail3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeControl\Mail3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Outbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeControl\Outbox.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RecycleBin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeControl\RecycleBin.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeControl\Spam.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeControl\Zip.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BalloonSearch_60_pictureBox1_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\BalloonSearch_60_pictureBox1.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonAlignCenter_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonAlignCenter.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonAlignJustify_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonAlignJustify.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonAlignLeft_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonAlignLeft.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonAlignRight_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonAlignRight.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonCopy_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonCopy.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonCut_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonCut.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonExit_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonExit.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonFileSaveAs_ImageSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonFileSaveAs.ImageSmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonFontBold_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonFontBold.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonFontItalic_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonFontItalic.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonFontStrike_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonFontStrike.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonFontUnderline_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonFontUnderline.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonGoto_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonGoto.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonItem20_ImageSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonItem20.ImageSmall.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonItem2_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonItem2.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonItem3_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonItem3.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonItem47_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonItem47.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonItem48_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonItem48.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonItem49_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonItem49.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonItem4_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonItem4.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonItem53_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonItem53.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonItem54_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonItem54.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonItem55_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonItem55.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonItem5_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonItem5.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonItem61_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonItem61.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonItem63_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonItem63.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonItem64_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonItem64.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonItem65_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonItem65.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonItem66_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonItem66.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonItem6_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonItem6.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonItem7_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonItem7.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonNew_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonNew.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonOptions_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonOptions.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonReplace_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonReplace.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonSave_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonSave.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonTextColor_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonTextColor.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_16_buttonUndo_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_16_buttonUndo.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_24_buttonFile_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_24_buttonFile.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_32_buttonFileSaveAs_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_32_buttonFileSaveAs.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_32_buttonFind_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_32_buttonFind.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_32_buttonItem10_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_32_buttonItem10.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_32_buttonItem11_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_32_buttonItem11.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_32_buttonItem12_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_32_buttonItem12.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_32_buttonItem1_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_32_buttonItem1.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_32_buttonItem20_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_32_buttonItem20.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_32_buttonItem21_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_32_buttonItem21.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_32_buttonItem23_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_32_buttonItem23.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_32_buttonItem24_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_32_buttonItem24.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_32_buttonItem25_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_32_buttonItem25.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_32_buttonItem56_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_32_buttonItem56.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_32_buttonItem57_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_32_buttonItem57.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_32_buttonItem58_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_32_buttonItem58.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_32_buttonItem59_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_32_buttonItem59.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_32_buttonItem8_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_32_buttonItem8.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_32_buttonItem9_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_32_buttonItem9.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_32_buttonMargins_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_32_buttonMargins.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_32_buttonPaste_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_32_buttonPaste.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_32_buttonX1_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_32_buttonX1.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_500_ribbonControl1_BackgroundImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_500_ribbonControl1.BackgroundImage.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem18_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem18.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem19_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem19.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem22_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem22.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem30_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem30.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem31_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem31.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem32_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem32.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem33_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem33.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem34_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem34.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem35_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem35.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem36_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem36.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem37_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem37.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem38_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem38.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem39_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem39.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem40_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem40.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem41_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem41.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem42_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem42.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem43_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem43.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem44_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem44.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem45_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem45.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem46_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem46.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem67_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem67.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem68_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem68.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem69_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem69.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem70_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem70.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem71_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem71.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem72_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem72.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem73_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem73.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem74_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem74.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem75_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem75.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem76_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem76.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_64_buttonItem77_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\frmMain_64_buttonItem77.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Info_16_Ribbonpad_Info_png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\Info_16_Ribbonpad.Info.png.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Resources_16_Unpinned" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\Resources_16_Unpinned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Resources_32_Document" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\Resources_32_Document.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Resources_32_OpenExistingPlace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibonPad\Resources_32_OpenExistingPlace.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clock128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clock128x128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder_updates128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder_updates128x128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="form" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\form.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pause32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pause32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reading128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reading128x128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendar128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar128x128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="normal64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\normal64x64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder_new.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder_search128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder_search128x128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="az64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\az64x64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checkall128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checkall128x128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rename48x48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rename48x48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D02_TS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D02_TS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BHXHVN24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BHXHVN24x24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BHXHVN_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BHXHVN 32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
