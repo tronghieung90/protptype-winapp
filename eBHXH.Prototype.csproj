@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{36B5BCDB-DD6A-48AE-9DEE-0F2001B7777C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>eBHXH.Prototype</RootNamespace>
+    <AssemblyName>eBHXH.Prototype</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>"%24/eBHXH.Prototype", CAAAAAAA</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath />
+    <SccProvider>MSSCCI:Microsoft Visual SourceSafe</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Ban mau\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Ban mau\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\BHXHVN.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Core2Duo">
+      <HintPath>.\Core2Duo.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\1-BE\clsDungChung.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.ATTACTFILE.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.cs">
+      <DependentUpon>eBHXHBE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\1-BE\eBHXHBE.designer.D02TS.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.HOSO.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.INBOX.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.LICHSUPHANCONG.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.OUTBOX.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.PHIEUGIAONHAN.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.SBANGKE.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.SCOQUAN.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.SDONVI.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.SLINHVUC.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.SLINHVUCTHUTUC.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.SMACDINH.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.SNHANVIEN.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.SPHANCONG.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.SPHEDUYET.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.SPHONGBOPHAN.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.SQUYTRINH.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.STAIKHOAN.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.STHUTUC.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.STHUTUCBANGKE.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.sysdiagrams.cs" />
+    <Compile Include="Class\1-BE\eBHXHBE.designer.THUHIENQUYTRINH.cs" />
+    <Compile Include="frmKoHopLe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKoHopLe.Designer.cs">
+      <DependentUpon>frmKoHopLe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHopLe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHopLe.Designer.cs">
+      <DependentUpon>frmHopLe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetting.Designer.cs">
+      <DependentUpon>frmSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKoHopLe.resx">
+      <DependentUpon>frmKoHopLe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHopLe.resx">
+      <DependentUpon>frmHopLe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetting.resx">
+      <DependentUpon>frmSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\101 PhieuGiaoNhanHoSo.rtf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock128x128.png" />
+    <None Include="Resources\folder_updates128x128.png" />
+    <None Include="Resources\form.png" />
+    <None Include="Resources\pause32x32.png" />
+    <None Include="Resources\reading128x128.png" />
+    <None Include="Resources\normal64x64.png" />
+    <None Include="Resources\calendar128x128.png" />
+    <None Include="Resources\folder_new.png" />
+    <None Include="Resources\folder_search128x128.png" />
+    <None Include="Resources\az64x64.png" />
+    <None Include="Resources\checkall128x128.png" />
+    <None Include="Resources\rename48x48.png" />
+    <None Include="Resources\D02_TS.png" />
+    <None Include="Resources\BHXHVN 32x32.png" />
+    <None Include="Resources\BHXHVN24x24.png" />
+    <Content Include="Resources\RibonPad\BalloonSearch_60_pictureBox1.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonAlignCenter.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonAlignJustify.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonAlignLeft.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonAlignRight.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonCopy.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonCut.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonExit.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonFileSaveAs.ImageSmall.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonFontBold.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonFontItalic.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonFontStrike.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonFontUnderline.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonGoto.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonItem2.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonItem20.ImageSmall.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonItem3.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonItem4.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonItem47.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonItem48.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonItem49.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonItem5.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonItem53.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonItem54.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonItem55.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonItem6.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonItem61.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonItem63.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonItem64.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonItem65.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonItem66.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonItem7.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonNew.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonOptions.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonReplace.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonSave.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonTextColor.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_16_buttonUndo.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_24_buttonFile.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_32_buttonFileSaveAs.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_32_buttonFind.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_32_buttonItem1.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_32_buttonItem10.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_32_buttonItem11.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_32_buttonItem12.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_32_buttonItem20.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_32_buttonItem21.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_32_buttonItem23.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_32_buttonItem24.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_32_buttonItem25.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_32_buttonItem56.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_32_buttonItem57.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_32_buttonItem58.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_32_buttonItem59.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_32_buttonItem8.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_32_buttonItem9.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_32_buttonMargins.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_32_buttonPaste.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_32_buttonX1.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_500_ribbonControl1.BackgroundImage.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem18.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem19.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem22.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem30.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem31.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem32.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem33.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem34.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem35.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem36.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem37.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem38.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem39.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem40.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem41.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem42.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem43.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem44.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem45.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem46.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem67.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem68.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem69.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem70.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem71.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem72.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem73.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem74.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem75.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem76.Image.png" />
+    <Content Include="Resources\RibonPad\frmMain_64_buttonItem77.Image.png" />
+    <Content Include="Resources\RibonPad\Info_16_Ribbonpad.Info.png.png" />
+    <Content Include="Resources\RibonPad\Resources_16_Unpinned.png" />
+    <Content Include="Resources\RibonPad\Resources_32_Document.png" />
+    <Content Include="Resources\RibonPad\Resources_32_OpenExistingPlace.png" />
+    <Content Include="Resources\TreeControl\application.png" />
+    <Content Include="Resources\TreeControl\application_view_tile.png" />
+    <Content Include="Resources\TreeControl\Document.png" />
+    <Content Include="Resources\TreeControl\Drawing.png" />
+    <Content Include="Resources\TreeControl\feed.png" />
+    <Content Include="Resources\TreeControl\Folder.png" />
+    <Content Include="Resources\TreeControl\Folder2.png" />
+    <Content Include="Resources\TreeControl\Folder3.png" />
+    <Content Include="Resources\TreeControl\Folder4.png" />
+    <Content Include="Resources\TreeControl\FolderClosed.png" />
+    <Content Include="Resources\TreeControl\FolderOpen.png" />
+    <Content Include="Resources\TreeControl\Harddrive.png" />
+    <Content Include="Resources\TreeControl\Home2.png" />
+    <Content Include="Resources\TreeControl\Inbox.png" />
+    <Content Include="Resources\TreeControl\InfoImage.png" />
+    <Content Include="Resources\TreeControl\Mail3.png" />
+    <Content Include="Resources\TreeControl\Outbox.png" />
+    <Content Include="Resources\TreeControl\RecycleBin.png" />
+    <Content Include="Resources\TreeControl\Spam.png" />
+    <Content Include="Resources\TreeControl\Zip.png" />
+    <None Include="Resources\unread48x48.png" />
+    <None Include="Resources\Single_Window_Example.jpg" />
+    <None Include="Resources\text48x48.png" />
+    <None Include="Resources\address32x32.png" />
+    <Content Include="Resources\agree.gif" />
+    <None Include="Resources\BHXHVN.ico" />
+    <None Include="Resources\BHXHVN.png" />
+    <Content Include="Resources\BinhThuong24_24.png" />
+    <Content Include="Resources\cancel.gif" />
+    <None Include="Resources\card48x48.png" />
+    <None Include="Resources\cate.png" />
+    <Content Include="Resources\check128x128.png" />
+    <None Include="Resources\sync48x48.png" />
+    <None Include="Resources\excel48x48.png" />
+    <None Include="Resources\filter48x48.png" />
+    <None Include="Resources\flag64x64.png" />
+    <None Include="Resources\chidinh48x48.png" />
+    <Content Include="Resources\KoHopLe48x48.png" />
+    <None Include="Resources\move48x48.png" />
+    <Content Include="Resources\Reading_24x24.png" />
+    <None Include="Resources\receive64x64.png" />
+    <Content Include="Resources\search_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Class\0-Lib\" />
+    <Folder Include="Class\2-DAL\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
