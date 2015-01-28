@@ -9,3 +9,17 @@ D:\Project\BHXH\eBHXH.Prototype\obj\x86\Debug\eBHXH.Prototype.frmSetting.resourc
 D:\Project\BHXH\eBHXH.Prototype\obj\x86\Debug\eBHXH.Prototype.Properties.Resources.resources
 D:\Project\BHXH\eBHXH.Prototype\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
 D:\Project\BHXH\eBHXH.Prototype\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+G:\DuAn\obj\x86\Debug\eBHXH.Prototype.csprojResolveAssemblyReference.cache
+G:\DuAn\obj\x86\Debug\eBHXH.Prototype.Form3.resources
+G:\DuAn\obj\x86\Debug\eBHXH.Prototype.frmKoHopLe.resources
+G:\DuAn\obj\x86\Debug\eBHXH.Prototype.Form1.resources
+G:\DuAn\obj\x86\Debug\eBHXH.Prototype.Form2.resources
+G:\DuAn\obj\x86\Debug\eBHXH.Prototype.frmHopLe.resources
+G:\DuAn\obj\x86\Debug\eBHXH.Prototype.frmMain.resources
+G:\DuAn\obj\x86\Debug\eBHXH.Prototype.frmSetting.resources
+G:\DuAn\obj\x86\Debug\eBHXH.Prototype.Properties.Resources.resources
+G:\DuAn\obj\x86\Debug\eBHXH.Prototype.csproj.GenerateResource.Cache
+G:\Ban mau\eBHXH.Prototype.exe
+G:\Ban mau\eBHXH.Prototype.pdb
+G:\DuAn\obj\x86\Debug\eBHXH.Prototype.exe
+G:\DuAn\obj\x86\Debug\eBHXH.Prototype.pdb
