@@ -12,10 +12,13 @@
     <AssemblyName>eBHXH.Prototype</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <SccProjectName>"%24/eBHXH.Prototype", CAAAAAAA</SccProjectName>
-    <SccLocalPath>.</SccLocalPath>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
     <SccAuxPath />
-    <SccProvider>MSSCCI:Microsoft Visual SourceSafe</SccProvider>
+    <SccProvider>
+    </SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -54,33 +57,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class\1-BE\clsDungChung.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.ATTACTFILE.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.cs">
-      <DependentUpon>eBHXHBE.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Class\1-BE\eBHXHBE.designer.D02TS.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.HOSO.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.INBOX.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.LICHSUPHANCONG.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.OUTBOX.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.PHIEUGIAONHAN.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.SBANGKE.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.SCOQUAN.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.SDONVI.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.SLINHVUC.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.SLINHVUCTHUTUC.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.SMACDINH.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.SNHANVIEN.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.SPHANCONG.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.SPHEDUYET.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.SPHONGBOPHAN.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.SQUYTRINH.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.STAIKHOAN.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.STHUTUC.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.STHUTUCBANGKE.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.sysdiagrams.cs" />
-    <Compile Include="Class\1-BE\eBHXHBE.designer.THUHIENQUYTRINH.cs" />
     <Compile Include="frmKoHopLe.cs">
       <SubType>Form</SubType>
     </Compile>
